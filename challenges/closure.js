@@ -32,4 +32,4 @@ function summation (num) {
   };
   return sumTotal;
 }
-console.log(summation(4));
+console.log("Summation of the Number 4: ", summation(4));
