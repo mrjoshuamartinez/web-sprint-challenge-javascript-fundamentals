@@ -74,7 +74,7 @@ populationTotal = zooAnimals.reduce((totalAnimals, item) =>{
   return totalAnimals + item.population;
 }, populationTotal);
 
-console.log(populationTotal);
+console.log("Total zoo population: ", populationTotal);
 
 // ==== Callbacks ====  
 
@@ -116,8 +116,8 @@ function greeting (fName, lName) {
 // console.log(consume(2, 2, add)); // 4
 // console.log(consume(10, 16, multiply)); // 160
 // console.log(consume("Mary", "Poppins", greeting)); // Hello Mary Poppins, nice to meet you!
-console.log(consume(2, 2, add)); // 4
-console.log(consume(10, 16, multiply)); // 160
+console.log("Total sum of two numbers", consume(2, 2, add)); // 4
+console.log("Total of two multiplied numbers", consume(10, 16, multiply)); // 160
 console.log(consume("Mary", "Poppins", greeting)); // Hello Mary Poppins, nice to meet you!
 
 
