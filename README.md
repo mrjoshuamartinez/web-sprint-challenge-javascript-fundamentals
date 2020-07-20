@@ -53,7 +53,7 @@ A closure gives inner functions & their variables access to the outer functions 
 
 5. Why do we need super() in an extended class?
 
-super() is what allows us to call functions fromt the parent in a super clean way.
+super() is what allows us to call functions from the parent in a super clean way.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
