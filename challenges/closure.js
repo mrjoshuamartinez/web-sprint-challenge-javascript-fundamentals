@@ -6,11 +6,11 @@
 const external = "I'm outside the function";
 
 function myFunction() {
-  console.log(external);
+  console.log("External Console.Log Comment: ", external);
   const internal = "Hello! I'm inside myFunction!";
 
   function nestedFunction() {
-    console.log(internal);
+    console.log("Internal Console.Log Comment: ", internal);
   };
   nestedFunction();
 }
